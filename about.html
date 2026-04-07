@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/light.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="logotxt">
+    <h1><span class="first">My</span><span class="second">Portfolio</span></h1>
+  </div>
+  <nav class="menu">
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html" class="logout-btn">Logout</a></li>
+    </ul>
+  </nav>
+</header>
+<button id="themeToggle" class="theme-toggle">
+  <span class="knob">
+    <i data-feather="moon" class="icon-sun"></i>
+    <i data-feather="sun" class="icon-moon"></i>
+  </span>
+</button>
+<main class="content">
+  <section class="myinfo">
+    <img src="images/profile.jpg" alt="Profile picture of Bryan Jay Domingo">
+    <div class="introtext">
+      <h2>About Me</h2>
+      <p>Hello! My name is <strong>Bryan Jay Domingo</strong>, a 2nd year BSIT student of 
+      <strong>OLSHCO</strong>. I enjoy building simple, functional websites that promote 
+      digital literacy and responsible technology use among students.</p>
+    </div>
+  </section>
+
+  <section class="block">
+  <h2>Where I Learned Coding</h2>
+  <ul class="links">
+    <li>
+      <span class="toggle-label" data-target="desc-w3">W3Schools ▼</span>
+      <div id="desc-w3" class="toggle-desc">
+        I learned the basics of HTML, CSS, and JavaScript from 
+        <a href="https://www.w3schools.com" target="_blank">W3Schools</a>, 
+        which gave me a strong foundation in web development.
+      </div>
+    </li>
+    <li>
+      <span class="toggle-label" data-target="desc-sdpt">SDPT Solutions ▼</span>
+      <div id="desc-sdpt" class="toggle-desc">
+        On <a href="https://www.youtube.com/@SDPTSolutions" target="_blank">SDPT Solutions</a>, 
+        I first learned how to code in <strong>Java</strong> and <strong>Python</strong>. 
+        The tutorials are explained in <strong>Tagalog/Filipino</strong>, which made them easier 
+        to understand and more relatable for me as a student.
+      </div>
+    </li>
+    <li>
+      <span class="toggle-label" data-target="desc-brocode">Bro Code ▼</span>
+      <div id="desc-brocode" class="toggle-desc">
+        <a href="https://www.youtube.com/@BroCodez" target="_blank">Bro Code</a> helped me 
+        strengthen my programming knowledge with clear tutorials in Java and Python, 
+        building on what I had already learned.
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+
+  <section class="block">
+    <h2>My Vision</h2>
+    <p>I want to lead projects that promote responsible technology use and digital literacy, 
+    starting with this portfolio as a simple, student‑friendly platform.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>© 2026 Bryan Domingo. All rights reserved.</p>
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+</html>

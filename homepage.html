@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Educational Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/light.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+<header class="topbar">
+  <div class="logotxt">
+    <h1><span class="first">My</span><span class="second">Portfolio</span></h1>
+  </div>
+  <nav class="menu">
+  <ul>
+    <li><a href="homepage.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="index.html" class="logout-btn">Logout</a></li> <!-- New Logout -->
+  </ul>
+</nav>
+
+
+  </nav>
+</header>
+  <button id="themeToggle" class="theme-toggle">
+  <span class="knob">
+    <i data-feather="moon" class="icon-sun"></i>
+    <i data-feather="sun" class="icon-moon"></i>
+  </span>
+</button>
+
+<main class="content">
+  <section class="greeting-sec">
+    <h2 id="greeting" class="greeting-label"></h2>
+  </section>
+
+
+  <section class="myinfo">
+    <img src="images/profile.jpg" alt="Profile picture of Bryan Jay Domingo">
+    <div class="introtext">
+      <p>Hello, my name is <span class="secondary">Bryan Jay Domingo</span>,<br>
+         Second Year BSIT Student of <span class="secondary">OLSHCO</span>.</p>
+      <div class="btns">
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="mediasec">
+    <div class="block">
+      <h2>Introduction</h2>
+      <audio controls>
+        <source src="audio/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="skillsvid">
+      <div class="block">
+        <h2>My Skills</h2>
+        <ul>
+          <li>HTML5 & Semantic Structure</li>
+          <li>Java - Object‑Oriented Programming</li>
+          <li>Python</li>
+          <li>UI/UX Design Principles</li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>My Project Demo</h2>
+        <video controls>
+          <source src="video/demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>© 2026 Bryan Domingo. All rights reserved.</p>
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+</html>
